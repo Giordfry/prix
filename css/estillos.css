@@ -1,0 +1,595 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.fondo {
+    background-color: #f4f2f2;
+}
+
+.portada  {
+    background-image: url(../img/1x/Recurso%201.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+    margin: auto;
+}
+
+.cajonportada {
+    margin: 27px auto;
+    width: 175px;
+    height: 95px;
+    border: 3px solid #4cac37;
+}
+
+.cajonportada img {
+    width: 80%;
+    padding-left: 20%;
+    margin-top: 10%
+    
+}
+
+
+/*========================== columna menu ==========================*/
+
+
+.varnav {
+    width: 100%;
+    height: 40px;
+    background-color: #4cac37;
+    margin-top: -7px
+}
+
+.iconv {
+    height: 25px;
+    margin-top: 8px;
+    
+}
+
+
+
+.varnav-fixed {
+	position:fixed;
+	z-index:1000;
+	box-shadow:0px 4px 3px rgba(0,0,0,.5);
+    margin: auto;
+    margin-left: 15px;
+}
+
+
+.ccc-fixed {
+    position:fixed;
+    z-index:999;
+    top: -12px;
+    margin: auto;
+    background:  #4cac37;
+    margin-left: 15px;
+	box-shadow:0px 4px 3px rgba(0,0,0,.5);
+    }
+    
+.ccc{
+     position: fixed;
+    }
+
+
+/*========================== contenido ==========================*/
+
+.categorias {
+    margin-top: 30px
+}
+
+.catetitulo {
+    font-size: 18px;
+}
+
+
+
+.reten {
+    float: right;
+    font-size: 18px;
+    color: #4cac37;
+}
+
+
+.reten a {
+    color: #4cac37;
+}
+
+.producto {
+    width: 138px;
+    height: 200px;
+    background-color: #fff;
+    box-shadow: 1px 3px 5px #b7b7b7;
+}
+
+.primero img {
+    margin-top: 15px;
+    margin-bottom: 12px;
+    width: 97px;
+}    
+
+.primero > p { 
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.2
+}
+
+.costo {
+    color: #4cac37;
+}
+
+.nombre {
+    font-weight: 600;
+}
+
+.gramos {
+    color: #575756;
+}
+
+.agregar  {
+    height: 15px;
+    margin-top: 2px;
+    margin-right: 5px;
+}
+
+.segundo {
+    padding: 4px;
+    display: flex;
+    margin: auto;
+    font-size: 12px;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    color: #4cac37;
+    margin-top: 5px
+}
+
+
+
+.prefooter {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.prefooter img {
+    height: 40px;
+    margin: 30px 0 40px 0;
+}
+.prefooter h5 {
+    text-align: center;
+    line-height: 1.2;
+    font-size: 16px;
+    
+}
+.prefooter p {
+      text-align: center;       line-height: 1.2;       color: #919191;       font-size: 12px;
+   }
+
+
+ 
+.footer {
+       background-color: #e8e8e8;
+       padding-top: 40px
+   }
+
+.redes {
+       height: 21px;
+       margin-top: -40px;
+   }
+    
+.piedepagina {
+       background-color: #333333;
+       text-align: center;
+       color: #5c5c5c;
+   }
+    
+.piedepagina p {
+      font-size: 9px;
+       margin-bottom: 0px;
+   }
+
+
+.prefootercel {
+    background-image: url(../img/1x/suscricion.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.tit h4 {
+    font-size: 14px;
+    margin: 20px;
+    width: 70%;
+}
+
+.tit p {
+    font-size: 13px;
+    margin: 20px 30px 10px;
+    width: 70%;
+}
+
+.sip {
+    margin-top: 30px;
+}
+
+
+.prefootercel .gratis {
+    margin-bottom: 15px;
+}
+
+.prefootercel .gratis p {
+    background: #e62e04;
+    padding: 5px 15px;
+    width: 90%;
+    color: aliceblue;
+    margin: auto;
+}
+
+.footercel {
+    height: auto;
+    background-color: #e8e8e8;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.footercel h4 {
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.footercel img {
+    height: 20px;
+    margin-left: 40px;
+}
+
+
+.piedepaginacel {
+    text-align: center;
+    color: #5c5c5c;
+    margin-top: 30px;
+}
+    
+.piedepaginacel p {
+    font-size: 9px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+/*==========           celular           ==========*/
+
+
+
+@media (min-width: 576px) {
+    
+    
+    
+    .cajonportada {
+    margin: 50px auto;
+    width: 275px;
+    height: 155px;
+    border: 3px solid #4cac37;
+}
+
+    
+    
+    
+    .portada  {
+    height: 263px;
+}
+    
+    
+    
+    .producto, .producto3, .producto4 {
+        width: 165.68px;
+        height: 243.65px;
+    }
+    
+    .primero img {
+        margin-top: 20px;
+        margin-bottom: 18px;    
+        width: 116px;
+    } 
+    
+    .primero > p { 
+        margin: auto;
+        text-align: center;
+        font-size: 17px;
+        line-height: 1.2;
+    }
+    
+    .segundo {
+        padding-top: 5px;
+        display: flex;
+        margin: auto;
+        font-size: 15px;
+        justify-content: center;
+        text-align: center;
+        color: #4cac37;
+        margin-top: 5px
+    }
+}
+
+/*==========           tablet           ==========*/
+
+
+@media (min-width: 768px) {
+    
+    
+.cajonportada {
+    margin: 50px auto;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #4cac37;
+}
+
+    
+    
+    .producto, .producto3, .producto4 {
+        width: 165.68px;
+        height: 243.65px;
+    }
+    
+    .portada {
+        height: 351px;
+    }
+}
+
+
+
+
+
+/*==========           pc           ==========*/
+
+@media (min-width: 992px) {
+    
+    
+    .cajonportada {
+    margin: 90px auto;
+    width: 675px;
+    height: 300px;
+    border: 7px solid #4cac37;
+}
+    
+    .cajonportada img {
+    width: 80%;
+    padding-left: 20%;
+    margin-top: 5%
+    
+}
+    
+   
+    .portada  {
+        background-image: url(../img/1x/pc.png);
+        height: 510px;
+    }
+    
+    
+  
+    
+    .logoc {
+        width: 100%;
+        height: 40px;
+        background-color: #4cac37;
+        margin-top: 12px
+    }
+    
+    
+    .iconv {
+        height: 30px;
+        margin-top: 5.5px;
+        float: right;
+    }
+    
+    .apli {
+        margin-top: -75px;
+    }
+   
+    .app {
+        width: 737px;
+        height: 415px;
+        border: 8px solid #4cac37;
+        margin: auto;
+        background-color: #f4f2f2;
+        display: flex;
+        
+    }
+    
+    .infoapp {
+        width: 456px;
+        text-align: center;
+    }
+    
+    .infoapp H3 {
+        font-size: 15px;
+        color: #c19008;
+        margin-top: 90px;
+    }
+    
+    .infoapp H2 {
+        font-size: 48px;
+        color: #4cac37;
+    }
+    
+    .infoapp p {
+        width: 380px;
+        font-size: 12px;
+        margin: auto;
+        margin-top: 40px
+    }
+    
+    
+/*===============      Pruductos      ===============*/
+    
+    
+    
+    
+    .titulo {
+        text-align: center;
+        margin: 63px 0 63px 0;
+    }
+    
+    .cate1, .cate2 {
+        margin-bottom: 30px;
+    }
+    
+    
+    
+    .iconp {
+        margin-top: 15px;
+        margin-bottom: 12px;
+        width: 66px;
+    }
+    
+    .categoria1 {
+        width: 136px;
+        height: 201px;
+        background-color: #fff;
+        box-shadow: 1px 3px 5px #b7b7b7;
+    }
+    
+    
+    .primero2 > p { 
+        margin: auto;
+        text-align: center;
+        line-height: 1.2
+    }
+    
+    .cateprod {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .descprod {
+        font-size: 12px;
+        
+    }
+    
+    .ver {
+        margin-top: 20px;
+    }
+    
+    
+    .mas {
+        background-color: #4cac37;
+        margin: auto;
+        height: 22px;
+    }
+    
+    .mas p {
+        font-size: 14px;
+        color: #fff;
+    }
+    
+/*===============      beneficios      ===============*/ 
+    
+    .preguntas {
+        margin-top: 40px;
+    }
+    
+    
+    .suscripcion {
+        background-image: url(../img/1x/suscripsion.png);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 220px;
+        margin: auto;
+    }    
+    
+    .mapa {
+        background-image: url(../img/1x/mapa.png);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 220px;
+        margin: auto;
+    } 
+    
+    .procesos {
+        background-image: url(../img/1x/proceso.png);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 616px;
+        margin: auto;
+    } 
+}
+
+
+.suscripcion p {
+    background-color: brown;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    color: aliceblue;
+}
+
+.suscripcion h4 {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px
+}
+
+
+
+.mapa p {
+    background-color: brown;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    color: aliceblue;
+}
+
+.mapa h4 {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px
+}
+
+
+.procesos h4 {
+    color: #ff4b4b;
+    font-size: 67px;
+    margin-top: 40px;
+    text-align: right;
+}
+
+
+
+
+.procesos p {
+    color: aliceblue;
+    font-size: 22px;
+    margin-top: 40px;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+

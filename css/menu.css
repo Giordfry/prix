@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+.nav {
+    background-color: #4cac37;
+    height: 100vh;
+    width: 100%;
+}
+
+li {
+    height: 10%;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.33);
+    
+}
+
+a {
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    font-size: 25px;
+    margin-left: 54px;
+    width: 100%;
+}
